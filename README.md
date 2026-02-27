@@ -77,6 +77,8 @@ File:
 
 File:
 - `13_authentication_basics.md`
+- `14_race_conditions.md`
+- `15_verification_authZ_authN_basics.md`
 
 ---
 
