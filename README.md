@@ -77,9 +77,55 @@ File:
 
 File:
 - `13_authentication_basics.md`
+
+---
+# 🔐 Security Concepts (Backend Notes)
+
+Backend development is not just about building APIs — real backend engineering requires a strong security mindset. This section covers the foundational security concepts that are essential for designing production-level systems.
+
+## 📌 Covered Concepts
+
+* Validation vs Duplicate Check
+* Database Unique Constraints
+* Race Condition
+* Verification vs Authentication vs Authorization
+* JWT Basics
+* Layered Security Model
+* Zero Trust Principle
+
+---
+
+## 🎯 Purpose of This Section
+
+The goal of this section is to understand that:
+
+* Not every request can be trusted
+* Every layer has a specific security responsibility
+* Authentication alone does not make a system secure
+* Data integrity and abuse prevention are equally important
+
+These concepts form the foundation of secure and scalable backend architecture.
+
+---
+
+## 🧠 Core Security Philosophy
+
+> Assume a breach is possible.
+> Design systems so that a single failure does not compromise everything.
+
+Layered security combined with a Zero Trust approach is the backbone of production-ready backend systems.
+
+---
+
+## 📂 Related Files
+
 - `14_race_conditions.md`
 - `15_verification_authZ_authN_basics.md`
 - `16_jsonwebtoken.md`
+
+---
+
+This section represents the security foundation of backend engineering. Implementation details will be covered in separate modules.
 
 ---
 
